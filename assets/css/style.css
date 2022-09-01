@@ -1,0 +1,37 @@
+:root{
+    --color-green: #93C01E;
+    --color-green-2: #3D5217;
+    --color-dark: #3C3C3B;
+    --color-white: #ffffff;
+    --color-black: #000000;
+}
+
+
+/* general style */
+.m-container{
+    max-width: 1280px;
+    margin: auto;
+    padding: 10px;
+}
+.b-1{
+    border: 1px solid;
+}
+/* general style */
+
+.header_top{
+    background-color: var(--color-dark);
+    box-shadow: 2px 2px 6px rgba(10, 10, 10, .2);
+}
+.header_bottom{
+    background-color: var(--color-white);
+    box-shadow: 2px 2px 6px rgba(10, 10, 10, .2);
+    padding: 10px;
+}
+
+.list_more{
+    counter-reset: item_post;
+}
+.count_item::before{
+    counter-increment: item_post;
+    content: counter(item_post) '.';
+}
