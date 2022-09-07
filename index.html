@@ -14,6 +14,18 @@
 </head>
 <body>
 
+    <div class="search_over">
+        <span class="btn_slose_search" id="btn_slose_search">
+            <i class="bi bi-x-lg"></i>
+        </span>
+        <div class="search_over_content">
+            <form action="" method="post" class="form_search">
+                <input type="search" name="" id="" placeholder="PESQUISAR">
+            </form>
+        </div>
+
+    </div>
+
     <header class="header">
         <div class="header_top">
             <div class="m-container">
@@ -41,21 +53,80 @@
                 </div>
 
                 <nav class="m-menu">
+
+                    <div class="top_menu">
+                        <span class="btn_close_menu">
+                            <i class="bi bi-x-lg"></i>
+                        </span>
+                    </div>
+
                     <ul>
                         <li>
                             <a href="">Agrigultura</a>
                         </li>
-                        <li>
+                        <li class="menu-item-has-children">
                             <a href="">Pecuária</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="">Lorem, ipsum dolor.</a>
+                                </li>
+                                <li>
+                                    <a href="">Lorem, ipsum.</a>
+                                </li>
+                                <li>
+                                    <a href="">Lorem, ipsum dolor.</a>
+                                </li>
+                                <li>
+                                    <a href="">Lorem ipsum dolor sit.</a>
+                                </li>
+                                <li>
+                                    <a href="">Lorem, ipsum.</a>
+                                </li>
+                            </ul>
                         </li>
-                        <li>
+                        <li class="menu-item-has-children">
                             <a href="">Boletim Climático</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="">Lorem, ipsum dolor.</a>
+                                </li>
+                                <li>
+                                    <a href="">Lorem, ipsum.</a>
+                                </li>
+                                <li>
+                                    <a href="">Lorem, ipsum dolor.</a>
+                                </li>
+                                <li>
+                                    <a href="">Lorem ipsum dolor sit.</a>
+                                </li>
+                                <li>
+                                    <a href="">Lorem, ipsum.</a>
+                                </li>
+                            </ul>
                         </li>
-                        <li>
+                        <li class="menu-item-has-children">
                             <a href="">Especiais</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="">Lorem, ipsum dolor.</a>
+                                </li>
+                                <li>
+                                    <a href="">Lorem, ipsum.</a>
+                                </li>
+                                <li>
+                                    <a href="">Lorem, ipsum dolor.</a>
+                                </li>
+                                <li>
+                                    <a href="">Lorem ipsum dolor sit.</a>
+                                </li>
+                                <li>
+                                    <a href="">Lorem, ipsum.</a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="">Mais</a>
+                            
                         </li>
                         <li>
                             <a href="">Contato</a>
@@ -63,10 +134,19 @@
                     </ul>
                 </nav>
 
-                <div class="search_header">
-                    <span class="icon_search">
-                        <i class="bi bi-search"></i>
-                    </span>
+                <div class="d-flex">
+                    <div class="search_header">
+                        <span class="icon_search" id="open_search">
+                            <i class="bi bi-search"></i>
+                        </span>
+                    </div>
+    
+                    <div class="over_btn_menu">
+                        <span class="btn_menu">
+                            <i class="bi bi-list"></i>
+                        </span>
+                    </div>
+
                 </div>
                 
             </div>
@@ -80,7 +160,7 @@
 
     <main>
 
-        <section class="container m-container section_padd">
+        <section class="container m-container section_padd container-fluid">
 
             <div class="row">
 
@@ -153,7 +233,7 @@
         </section>
 
         <section class="ban_line">
-            <h2>Espaço reservao para cotações</h2>
+            <h2>Espaço reservado para cotações</h2>
         </section>
 
         <section class="container m-container section_padd_40">
@@ -242,10 +322,10 @@
         <section class="cta_social">
             <div class="container m-container">
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-xl-6">
                         <h2 class="title_cta_social">Participe do nosso grupo do whatsapp e do telegram! acesse nosso canal no youtube!</h2>
                     </div>
-                    <div class="col-12 col-md-6 social_links p-0">
+                    <div class="col-12 col-xl-6 social_links p-0">
                         <a href="" class="btn_social bg-red">
                             Youtube
                         </a>
@@ -369,8 +449,8 @@
             </div>
         </section>
 
-        <div class="ga">
-
+        <div class="container m-container">
+            <div class="ga" style="margin: 40px auto 0;"></div>
         </div>
 
         <section class="post_carousel section_padd">
@@ -644,7 +724,7 @@
                 <div class="col-12 col-md-4 more_read m-10">
     
                     <div class="row">
-                        <h2 class="title_green text-left m-0">Mais Lidas</h2>
+                        <h2 class="title_green text-left m-0 title_more_read">Mais Lidas</h2>
                     </div>
     
                     <section class="row list_more">
@@ -817,10 +897,10 @@
         <section class="cta_social">
             <div class="container m-container">
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-xl-6">
                         <h2 class="title_cta_social">Participe do nosso grupo do whatsapp e do telegram! acesse nosso canal no youtube!</h2>
                     </div>
-                    <div class="col-12 col-md-6 social_links p-0">
+                    <div class="col-12 col-xl-6 social_links p-0">
                         <a href="" class="btn_social bg-red">
                             Youtube
                         </a>
