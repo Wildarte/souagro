@@ -60,6 +60,7 @@ btn_slose_search.addEventListener('click', () => {
 });
 
 const item_has_children = document.querySelectorAll('li.menu-item-has-children > a');
+const submenus = document.querySelectorAll('.sub-menu');
 
 item_has_children.forEach((item) => {
 
@@ -68,3 +69,29 @@ item_has_children.forEach((item) => {
     });
 
 })
+
+if(window.matchMedia('(max-width: 1024px)').matches){
+
+    item_has_children.forEach((item, index) => {
+
+        item.addEventListener('click', (e) => {
+
+            e.preventDefault();
+
+            if(submenus[index].classList.contains('open_submenu')){
+                submenus[index].classList.remove('open_submenu');
+            }else{
+                submenus.forEach((item) => {
+                    item.classList.remove('open_submenu');
+                });
+
+                submenus[index].classList.add('open_submenu');
+            }
+
+            
+
+        });
+    
+    })
+
+}

@@ -246,7 +246,7 @@ nav.m-menu ul li.menu-item-has-children .sub-menu{
     height: 0;
     padding: 0px 5px;
     overflow: hidden;
-    transition: all .18s;
+    transition: all .1s;
 }
 nav.m-menu ul li.menu-item-has-children:hover .sub-menu{
     padding: 5px;
@@ -290,6 +290,7 @@ nav.m-menu ul li a{
 .card_var{
     width: 100%;
     transition: all .23s;
+    position: relative;
 }
 .card_var img{
     width: 100%;
@@ -305,6 +306,7 @@ nav.m-menu ul li a{
 .card_inline{
     margin-bottom: 30px;
     transition: all .2s;
+    position: relative;
 }
 .card_inline:hover{
     filter: brightness(90%);
@@ -362,6 +364,7 @@ a.btn_social{
 }
 
 .card_default{
+    position: relative;
     margin: 10px;
     margin-bottom: 20px;
     transition: all .2s;
@@ -678,11 +681,20 @@ footer.footer{
     }
     .top_menu{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
+        padding: 20px 10px;
+        position: relative;
+    }
+    .top_menu a img{
+        max-width: 180px;
+        margin: auto;
     }
     .btn_close_menu{
         padding: 10px;
         font-size: 1.2em;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
     nav.m-menu{
         display: block;
@@ -706,6 +718,7 @@ footer.footer{
     nav.m-menu > ul li{
         width: 100%;
         display: block;
+        text-align: center;
     }
     /* submenu */
     nav.m-menu ul li.menu-item-has-children{
@@ -726,12 +739,17 @@ footer.footer{
         height: 0;
         padding: 0px 5px;
         overflow: hidden;
-        transition: all .18s;
+        transition: all .1s;
     }
     nav.m-menu ul li.menu-item-has-children:hover .sub-menu{
-        padding: 5px;
-        height: auto;
-        background-color: var(--color-white);
+        padding: 0;
+        height: 0;
+        background-color: unset;
+    }
+    .open_submenu{
+        padding: 5px!important;
+        height: auto!important;
+        background-color: var(--color-white)!important;
     }
     nav.m-menu ul li.menu-item-has-children .sub-menu li{
         width: 100%;
@@ -936,6 +954,6 @@ footer.footer{
         padding-left: 0;
     }
     .content_post p, .content_post ul li{
-        font-size: 1em;
+        font-size: 1em  ;
     }
 }

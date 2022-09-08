@@ -55,6 +55,9 @@
                 <nav class="m-menu">
 
                     <div class="top_menu">
+                        <a href="">
+                            <img src="assets/img/logo.png" alt="">
+                        </a>
                         <span class="btn_close_menu">
                             <i class="bi bi-x-lg"></i>
                         </span>

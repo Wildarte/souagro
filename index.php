@@ -29,6 +29,9 @@
     
                                 <span class="btn_green">Ler Mais</span>
                             </div>
+                            <span class="icon_play">
+                                    <i class="bi bi-play-fill"></i>
+                                </span>
 
                         </a>
                         
@@ -53,6 +56,9 @@
     
                                 <span class="btn_green">Ler Mais</span>
                             </div>
+                            <span class="icon_play">
+                                <i class="bi bi-play-fill"></i>
+                            </span>
                         </a>
                     </article>
 
@@ -71,6 +77,9 @@
     
                                 <span class="btn_green">Ler Mais</span>
                             </div>
+                            <span class="icon_play">
+                                <i class="bi bi-play-fill"></i>
+                            </span>
                         </a>
                     </article>
 
@@ -219,7 +228,9 @@
             
                                         <span class="btn_green">Ler Mais</span>
                                     </div>
-        
+                                    <span class="icon_play">
+                                        <i class="bi bi-play-fill"></i>
+                                    </span>
                                 </a>
                                 
                             </article>
@@ -240,6 +251,9 @@
             
                                         <span class="btn_green">Ler Mais</span>
                                     </div>
+                                    <span class="icon_play">
+                                        <i class="bi bi-play-fill"></i>
+                                    </span>
         
                                 </a>
                                 
@@ -261,6 +275,9 @@
             
                                         <span class="btn_green">Ler Mais</span>
                                     </div>
+                                    <span class="icon_play">
+                                        <i class="bi bi-play-fill"></i>
+                                    </span>
         
                                 </a>
                                 
@@ -282,6 +299,9 @@
             
                                         <span class="btn_green">Ler Mais</span>
                                     </div>
+                                    <span class="icon_play">
+                                        <i class="bi bi-play-fill"></i>
+                                    </span>
         
                                 </a>
                             </article>
@@ -325,6 +345,9 @@
             
                                         <span class="btn_green">Ler Mais</span>
                                     </div>
+                                    <span class="icon_play">
+                                        <i class="bi bi-play-fill"></i>
+                                    </span>
         
                                 </a>
                             </article>
@@ -343,6 +366,9 @@
             
                                         <span class="btn_green">Ler Mais</span>
                                     </div>
+                                    <span class="icon_play">
+                                        <i class="bi bi-play-fill"></i>
+                                    </span>
         
                                 </a>
                             </article>
@@ -361,6 +387,9 @@
             
                                         <span class="btn_green">Ler Mais</span>
                                     </div>
+                                    <span class="icon_play">
+                                        <i class="bi bi-play-fill"></i>
+                                    </span>
         
                                 </a>
                             </article>
@@ -379,6 +408,9 @@
             
                                         <span class="btn_green">Ler Mais</span>
                                     </div>
+                                    <span class="icon_play">
+                                        <i class="bi bi-play-fill"></i>
+                                    </span>
         
                                 </a>
                             </article>
@@ -498,6 +530,9 @@
             
                                         <span class="btn_green">Ler Mais</span>
                                     </div>
+                                    <span class="icon_play">
+                                        <i class="bi bi-play-fill"></i>
+                                    </span>
         
                                 </a>
                                 
@@ -519,6 +554,9 @@
             
                                         <span class="btn_green">Ler Mais</span>
                                     </div>
+                                    <span class="icon_play">
+                                        <i class="bi bi-play-fill"></i>
+                                    </span>
         
                                 </a>
                                 
@@ -540,6 +578,9 @@
             
                                         <span class="btn_green">Ler Mais</span>
                                     </div>
+                                    <span class="icon_play">
+                                        <i class="bi bi-play-fill"></i>
+                                    </span>
         
                                 </a>
                                 
@@ -561,6 +602,9 @@
             
                                         <span class="btn_green">Ler Mais</span>
                                     </div>
+                                    <span class="icon_play">
+                                        <i class="bi bi-play-fill"></i>
+                                    </span>
         
                                 </a>
                                 
@@ -645,6 +689,9 @@
     
                                 <span class="btn_green">Ler Mais</span>
                             </div>
+                            <span class="icon_play">
+                                <i class="bi bi-play-fill"></i>
+                            </span>
 
                         </a>
                         
@@ -665,7 +712,9 @@
     
                                 <span class="btn_green">Ler Mais</span>
                             </div>
-
+                            <span class="icon_play">
+                                <i class="bi bi-play-fill"></i>
+                            </span>
                         </a>
                         
                     </article>
@@ -685,6 +734,9 @@
     
                                 <span class="btn_green">Ler Mais</span>
                             </div>
+                            <span class="icon_play">
+                                <i class="bi bi-play-fill"></i>
+                            </span>
 
                         </a>
                         
@@ -708,6 +760,9 @@
     
                                 <span class="btn_green">Ler Mais</span>
                             </div>
+                            <span class="icon_play">
+                                <i class="bi bi-play-fill"></i>
+                            </span>
 
                         </a>
                         
@@ -728,6 +783,9 @@
     
                                 <span class="btn_green">Ler Mais</span>
                             </div>
+                            <span class="icon_play">
+                                <i class="bi bi-play-fill"></i>
+                            </span>
 
                         </a>
                         
